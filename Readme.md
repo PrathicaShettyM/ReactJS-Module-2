@@ -8,6 +8,7 @@
 ```
 2. Instagram Login Page
 ```
-  cd LoginPage
+  cd InstagramLogin
+
   npm run dev
 ```
