@@ -1,0 +1,29 @@
+.CounterCard{
+  background-color: rgb(236, 20, 92);
+  width: 30%;
+  margin: auto;
+  margin-top: 150px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.Count{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.btn{
+  padding: 10px 25px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
