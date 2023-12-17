@@ -6,3 +6,8 @@
   cd CounterApp
   npm run dev
 ```
+2. Instagram Login Page
+```
+  cd LoginPage
+  npm run dev
+```
