@@ -1,0 +1,40 @@
+.LoginCard{
+    border: 2px solid black;
+    padding: 1rem;
+    width: 28%;
+    margin: 140px auto;
+    font-size: 20px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+input{
+    padding: 10px 20px;
+}
+.inputFields{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    background-color: #2495e1;
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.link{
+    margin: 30px;
+    text-align: center;
+}
+.link span{
+    color: #2495e1;
+    cursor: pointer;
+}
