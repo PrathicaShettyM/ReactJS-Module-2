@@ -22,6 +22,35 @@
   ```
 
 ## Instagram Login Page
+1. The login page is designed using `conditional rendering` in ReactJS
+2. set the state of the variable of the `login` to true.
+```
+  const [login, setLogin] = useState(true);
+```
+3. Add a custom function Change(), which changes the state of the variable login in the `setLogin` setter function.
+```
+ function Change(){
+    setLogin(!login)
+  }
+```
+4. Using `conditional rendering`, toggle between input fields for SignIn and SignUp
+```
+<div className='inputFields'>
+  <input hidden={login} className='input' type='text' placeholder='Mobile Number'/>
+  <input hidden={login} className='input' type='text' placeholder='Full Name'/>
+  <input className='input' type='email' placeholder='Email'/>
+  <input className='input' type='password' placeholder='Password'/>
+</div>
+```
+5. The state of the Login page changes with `onClick` function, toggling between SignIn and SignUp due to conditional rendering  
+```
+   <div className='link'>
+        {login?"Don't have an account?":"Have an account?"}
+          <span onClick={Change}>
+            {login?"Sign Up":"Sign In"}
+          </span>
+      </div>
+```
 
 ### Run the programs on the local machine
 1. Counter App 

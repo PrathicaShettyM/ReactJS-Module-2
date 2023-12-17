@@ -17,7 +17,7 @@ function App() {
             height="100px" 
             alt='Logo'/>
       </div>
-
+    
       <div className='inputFields'>
         <input hidden={login} className='input' type='text' placeholder='Mobile Number'/>
         <input hidden={login} className='input' type='text' placeholder='Full Name'/>
@@ -27,12 +27,12 @@ function App() {
 
       <div className='btn'>{login?" SignIn ":" SignUp "}</div>
 
-        <div className='link'>
-          {login?"Don't have an account?":"Have an account?"}
-            <span onClick={Change}>
-              {login?"Sign Up":"Sign In"}
-            </span>
-        </div>
+      <div className='link'>
+        {login?"Don't have an account?":"Have an account?"}
+          <span onClick={Change}>
+            {login?"Sign Up":"Sign In"}
+          </span>
+      </div>
         
     </div>
   )
